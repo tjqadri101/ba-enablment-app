@@ -5,7 +5,7 @@
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>1</factId>
-      <objectToString>com.redhat.Greeting@533b266e</objectToString>
+      <objectToString>com.redhat.Greeting@751b46f8</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.RuleFlowLogEvent>
       <type>8</type>
@@ -85,27 +85,32 @@
     </org.drools.core.audit.event.RuleFlowLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
-      <activationId>Hello World [0]</activationId>
+      <activationId>Hello World [1]</activationId>
       <rule>Hello World</rule>
-      <declarations></declarations>
+      <declarations>greeting=com.redhat.Greeting@751b46f8(1)</declarations>
       <ruleFlowGroup>greeting</ruleFlowGroup>
-      <factHandleIds>0</factHandleIds>
+      <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
-      <activationId>Hello World [0]</activationId>
+      <activationId>Hello World [1]</activationId>
       <rule>Hello World</rule>
-      <declarations></declarations>
+      <declarations>greeting=com.redhat.Greeting@751b46f8(1)</declarations>
       <ruleFlowGroup>greeting</ruleFlowGroup>
-      <factHandleIds>0</factHandleIds>
+      <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>com.redhat.Greeting@751b46f8</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
-      <activationId>Hello World [0]</activationId>
+      <activationId>Hello World [1]</activationId>
       <rule>Hello World</rule>
-      <declarations></declarations>
+      <declarations>greeting=com.redhat.Greeting@751b46f8(1)</declarations>
       <ruleFlowGroup>greeting</ruleFlowGroup>
-      <factHandleIds>0</factHandleIds>
+      <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.RuleFlowNodeLogEvent>
       <type>26</type>
